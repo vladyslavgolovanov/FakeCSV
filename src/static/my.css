@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  text-align: center;
+  background-color:white;
+  font-family: Bradley Hand, cursive;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: whitesmoke;
+}
+
+.topnav a {
+  float: right;
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav button{
+    float: right;
+    padding:5px 6px;
+    background:rgba(0, 0, 0, 0);
+    color:red; border:2px solid red;
+    border-radius:5px;
+    margin: 12px 1em 0 auto;
+    width:150px;
+
+}
+
+
+.logo {
+    height: 40px;
+    width: 180px;
+    padding: 5px 5px;
+    float: left;
+}
+
+
+
+.login form {
+    margin:5% auto;
+    border: 5px solid #f1f1f1;
+    height: 350px;
+    width: 400px;
+
+
+
+}
+
+
+.login input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+
+}
+
+.login input[type="submit"] {
+   padding:7px ;
+   background:rgba(0, 0, 0, 0);
+   color:blue; border:2px solid blue;
+   border-radius:5px;
+   margin:5% auto;
+   width:150px;
+}
+
+
+.schema table {
+    margin:5% auto;
+    font-size: 30px;
+    border: 4px double black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+
+.schema th, td:first-child {
+    background: white;
+    color: black;
+    padding: 10px 20px;
+}
+
+.schema button{
+    float: right;
+    padding:5px 6px;
+    color:green; border:2px solid green;
+    border-radius:5px;
+    width:150px;
+
+}
+
+
+

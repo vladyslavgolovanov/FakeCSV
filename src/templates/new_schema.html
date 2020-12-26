@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% block content %}
+    <div class="col-md-4">
+        <form action="" method="post">{% csrf_token %}
+            {{ form.as_p }}
+            <table class="table">
+                {{ column_form.management_form }}
+
+                {% for form in column_form.forms %}
+                    {% if forloop.first %}
+                        <thead>
+                        <tr>
+                            {% for field in form.visible_fields %}
+                                <th>{{ field.label|capfirst }}</th>
+                            {% endfor %}
+                        </tr>
+                        </thead>
+                    {% endif %}
+                    <tr class=" formset_row">
+                        {% for field in  form.visible_fields %}
+                            <td>
+                                {% if forloop.first %}
+                                    {% for hidden in form.hidden_fields %}
+                                        {{ hidden }}
+                                    {% endfor %}
+                                {% endif %}
+                                {{ field.errors.as_ul }}
+                                {{ field }}
+                            </td>
+                        {% endfor %}
+                    </tr>
+                {% endfor %}
+
+            </table>
+            <input type="submit" value="Save"/>
+        </form>
+    </div>
+{% endblock %}

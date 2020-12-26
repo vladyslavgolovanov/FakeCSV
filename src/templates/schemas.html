@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="schema">
+    <h1>Data Schemas</h1>
+    <button onclick="window.location.href='/schema/add'">+ Add</button>
+
+    <table>
+        <tr>
+            <th>#</th>
+            <th>Title</th>
+            <th>Modified</th>
+            <th>Action</th>
+        </tr>
+        {% for i in result %}
+            <tr>
+                <th>{{ i.id }}</th>
+                <th>{{ i.name }}</th>
+                <th>{{ i.data }}</th>
+                <th>
+                    <div>
+                        <a href="{% url 'schema:den' i.id  %}">Generate dataset</a>
+                        <a href="{% url 'schema:delete' i.id  %}">Delete</a>
+                    </div>
+                </th>
+            </tr>
+        {% endfor %}
+    </table>
+</div>
+{% endblock %}
