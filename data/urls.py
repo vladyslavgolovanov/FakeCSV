@@ -1,4 +1,4 @@
-from django.urls import path, include
+from django.urls import path
 
 from data import views
 from data.views import SchemaListView, SchemaCreateView, SchemaUpdateView, SchemaDeleteView
