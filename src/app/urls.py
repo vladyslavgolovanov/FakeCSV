@@ -17,9 +17,9 @@ from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import path, include
 
-from app import settings
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('accounts/', include('core.urls')),
-    path('schema/', include('data.urls'))] + static(settings.STATIC_URL, document_root=settings.MEDIA_ROOT)
+    path('', include('data.urls'))]
