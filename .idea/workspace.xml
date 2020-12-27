@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e753119d-3823-48cc-ad2d-274ca1648db7" name="Default Changelist" comment="deploy">
+      <change afterPath="$PROJECT_DIR$/src/app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/celery.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/tasks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/img/FakeCSV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/my.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/authentication/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/new_schema.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/schemas.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="bc9a4cd9-4e50-47c0-8fda-b02007d08c77" />
+  <component name="ProjectId" id="1lyncdFr4gmtBKvUWJHpjLsXvLa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../OOP" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.templateLanguages.PyTemplateLanguageModulesConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Vlad\PycharmProjects\FakeCSV" />
+      <recent name="C:\Users\Vlad\PycharmProjects\FakeCSV\src\static\img" />
+      <recent name="C:\Users\Vlad\PycharmProjects\FakeCSV\src\templates\authentication" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e753119d-3823-48cc-ad2d-274ca1648db7" name="Default Changelist" comment="" />
+      <created>1608578279440</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608578279440</updated>
+      <workItem from="1608578280533" duration="1900000" />
+      <workItem from="1608580407027" duration="86068000" />
+      <workItem from="1608822393491" duration="79727000" />
+    </task>
+    <task id="LOCAL-00001" summary="deploy">
+      <created>1609023268290</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1609023268291</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="deploy" />
+    <option name="LAST_COMMIT_MESSAGE" value="deploy" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608927421668">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1608927421668" />
+    <state x="413" y="142" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1609024100400">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="413" y="142" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1609024100400" />
+    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608996231222">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1608996231222" />
+    <state x="455" y="152" key="FileChooserDialogImpl" timestamp="1608927550719">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="455" y="152" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1608927550719" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1608593197713">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1608593197713" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1609023568091">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1609023568091" />
+  </component>
+</project>
